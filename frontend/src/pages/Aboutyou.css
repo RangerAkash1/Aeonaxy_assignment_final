@@ -1,0 +1,105 @@
+/* aboutYou.css */
+
+.about-container {
+  max-width: 800px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+.select-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Space items evenly */
+  margin-top: 20px;
+}
+
+.previous-button,
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: pink;
+  font-weight: bold;
+  width: 45%;
+}
+
+.submit-button:hover,
+.previous-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.about-you-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-you-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-you-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.widget-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  margin: 1rem;
+  height: 250px;
+  width: 300px;
+}
+
+.widget:hover {
+  background-color: #f0f0f0;
+}
+
+.widget.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.widget-text {
+  font-size: 14px;
+}
